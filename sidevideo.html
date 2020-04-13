@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+    background-color: green;
+    color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+<h1 style="color: white">Welcome!</h1>
+  <a href="webapp.html">Home</a>
+  
+  <button class="dropdown-btn">Diploma Course
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="https://www.youtube.com/embed/nsz8WdBH0IU">Chapter 1</a>
+    <a href="https://www.youtube.com/embed/hBNQmQyl1Zk">Chapter 2</a>
+      <a href="https://www.youtube.com/embed/dTLa8uAToCw">Chapter 3</a>
+        <a href="https://www.youtube.com/embed/5lPNNlbg4i4">Chapter 4</a>
+          <a href="https://www.youtube.com/embed/GQtIIXOid7s">Chapter 5</a>
+            <a href="https://www.youtube.com/embed/RdLf-C7a6ao">Chapter 6</a>
+  </div>
+  <button class="dropdown-btn">Masters Course 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="https://www.youtube.com/embed/c01Hb84H4RY">Chapter 1</a>
+    <a href="https://www.youtube.com/embed/C9PhWvnjh00">Chapter 2</a>
+      <a href="https://www.youtube.com/embed/otoMQCnCQQs">Chapter 3</a>
+        <a href="https://www.youtube.com/embed/OPvERYM62u8">Chapter 4</a>
+        
+  </div>
+</div>
+<center>
+<div class="main">
+  <h1>Diploma Course</h1>
+ <br>
+<iframe width="530" height="300" src="https://www.youtube.com/embed/nsz8WdBH0IU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+<p><u>1.Digital Marketing - Overview</u><p>
+<p>Lecture By:Mr.Asif Hussain, Tutorials Point India Private Limited.</p>
+<p>Category Education</p>
+<br>
+<br>
+<iframe width="530" height="300" src="https://www.youtube.com/embed/hBNQmQyl1Zk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+<p><u>2.Digital Marketing - Plan</u><p>
+<p>Lecture By:Mr.Asif Hussain, Tutorials Point India Private Limited.</p>
+<p>Category Education</p>
+<br>
+<br>
+<iframe width="530" height="300" src="https://www.youtube.com/embed/dTLa8uAToCw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+<p><u>3.Digital Marketing - Goals</u><p>
+<p>Lecture By:Mr.Asif Hussain, Tutorials Point India Private Limited.</p>
+<p>Category Education</p>
+<br>
+<br>
+<iframe width="530" height="300" src="https://www.youtube.com/embed/5lPNNlbg4i4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+<p><u>4.Digital Marketing - Strategies</u><p>
+<p>Lecture By:Mr.Asif Hussain, Tutorials Point India Private Limited.</p>
+<p>Category Education</p>
+<br>
+<br>
+<iframe width="530" height="300" src="https://www.youtube.com/embed/GQtIIXOid7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+<p><u>5.Digital Marketing - Mix</u><p>
+<p>Lecture By:Mr.Asif Hussain, Tutorials Point India Private Limited.</p>
+<p>Category Education</p>
+<br>
+<br>
+<iframe width="530" height="300" src="https://www.youtube.com/embed/RdLf-C7a6ao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+<p><u>6.Digital Marketing - Print Media</u><p>
+<p>Lecture By:Mr.Asif Hussain, Tutorials Point India Private Limited.</p>
+<p>Category Education</p>
+<br>
+<br>
+</div>
+
+<div class="main">
+  <h1>Masters Course</h1>
+ <br>
+<iframe width="530" height="300" src="https://www.youtube.com/embed/c01Hb84H4RY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+<p><u>1.MSc Digital Marketing - Overview</u><p>
+<p>Lecture for MSc Digital Marketing at RGU, Jack Keenan explains the content of the course and why prospective students might choose to study it.</p>
+<p>Produced for RGU by http://www.postgraduatesearch.com/</p>
+<p>Category Education</p>
+<br>
+<br>
+<iframe width="530" height="300" src="https://www.youtube.com/embed/C9PhWvnjh00" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+<p><u>2.MSc Digital Marketing</u><p>
+  <p>Published on 27 Feb 2013</p>
+<p>Dr.Laurent Muzellec provides an overview of the MSc in Digital Marketing at UCD Smurfit School</p>
+<p>Category Education</p>
+<br>
+<br>
+<br><iframe width="530" height="300" src="https://www.youtube.com/embed/otoMQCnCQQs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+<p><u>3.Advancement at Swinburne</u><p>
+  <p>Published on 10  Dec 2015</p>
+<p>Meet Swinburne's University Advancement group, the team that is engaging our Swinburne Alumni and finding new and exciting ways to strengthen relationships with our students post-graduation.</p>
+<p>Category Education</p>
+<br>
+<br
+<br><iframe width="530" height="300" src="https://www.youtube.com/embed/OPvERYM62u8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+<p><u>4.Video Marketing in 2018</u><p>
+ <p>Published on 23 Jan 2018</p>
+<p>With these same video marketing strategies, we have been able to generate over 159,000 videos for key videos by distributing them through the web. Think of what that can do for your business!<br>
+
+When it comes to video marketing, there is a lot to know. First, you need to know how to create the videos, but next, you need to know how to distribute them through the modern web.<br>
+
+Learn more about our digital marketing agency and video services.
+https://ignitevisibility.com/internet...<br>
+
+Learn more about adding video to your sales funnel.<br> 
+
+Video is the fastest growing type of content online that people actually want to see! The is why video marketing is so important. Marketers are getting less and less time online to grab attention of users. Video marketing allows you to get that attention quickly. In some cases, it is impossible to ignore.<br>
+
+This quick video talks and video marketing tips that are easy to implement. You can use these tips to distribute your own videos around the web.<br>
+
+If you have questions about video marketing, make sure to ask below. There is a lot to know about video marketing strategy. This is simply a beginners course on the subject.<p>
+<p>Category Education</p>
+</div>
+</center>
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html> 
